@@ -19,5 +19,11 @@
         "type": "git",
         "url": "https://github.com/Ritzlgrmft/log4javascript.git"
     },
+    "devDependencies": {
+        "jasmine": "^2.4.1"
+    },
+    "scripts": {
+        "test": "./node_modules/jasmine/bin/jasmine.js"
+    },
     "typings": "log4javascript.d.ts"
 }
